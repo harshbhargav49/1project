@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+:root {
+  --main-bg-color: #2874f0;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background: var(--main-bg-color);
+  font-family: "Lato", sans-serif;
+}
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 80px;
+  padding: 0 25px;
+}
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  font-weight: bold;
+  color: black;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 330px;
+  height: 24px;
+  margin: 0 1px 0 50px;
+  border: 1px solid white;
+  font-family: "Lato", sans-serif;
+}
+.search input:focus {
+  outline: white;
+}
+.search button {
+  font-weight: 900px;
+}
+.slider img {
+  margin: 12px auto;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart {
+  max-width: 91vw;
+  margin: auto;
+  padding-bottom: 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+.carts {
+  display: flex;
+  justify-content: center;
+}
+.cart-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15px;
+}
+.cart h2 {
+  padding-top: 3px;
+  padding-left: 85px;
+  font-family: "Ubuntu", sans-serif;
+}
+.container {
+  min-height: calc(100vh - 58px - 12vh);
+}
+
+footer {
+  height: 12vh;
+  background: var(--main-bg-color);
+  color: white;
+  font-family: "Lato", sans-serif;
+}

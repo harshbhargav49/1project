@@ -1,0 +1,25 @@
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border: 1px solid white;
+  padding: 4px 10px;
+  color: black;
+  background-color: white;
+  font-family: "Lato", sans-serif;
+}
+.my-1 {
+  margin: 5px 0;
+}
+.my-2 {
+  margin: 10px 0;
+}
+.text-center {
+  text-align: center;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
